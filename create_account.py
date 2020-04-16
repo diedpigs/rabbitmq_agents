@@ -3,7 +3,7 @@ import sys
 import rc_util
 
 if len(sys.argv) < 2:
-    print("Usage: {} USERNAME [EMAIL] [FULL_NAME] [REASON]".format(sys.argv[0]), file=sys.stderr)
+    print("Usage: {} USERNAME [EMAIL] [FULL_NAME] [REASON]".format(sys.argv[0], file=sys.stderr))
     exit(1)
 
 domain = 'uab.edu'
